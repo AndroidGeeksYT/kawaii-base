@@ -79,9 +79,9 @@ local defaults = {
   LazyReasonImport = { fg = colors.white },
   LazyProgressDone = { fg = colors.green },
 
-  NvDashAscii = { fg = colors.blue },
-  NvDashButtons = { fg = colors.light_grey },
-  NvDashFooter = { fg = colors.red },
+  KawaiiDashAscii = { fg = colors.pink },
+  KawaiiDashButtons = { fg = colors.pink },
+  KawaiiDashFooter = { fg = colors.pink },
 }
 
 -- merge statusline & hl_add tables!

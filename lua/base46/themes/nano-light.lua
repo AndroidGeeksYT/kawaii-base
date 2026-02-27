@@ -78,8 +78,8 @@ M.polish_hl = {
     TelescopeMatching = { fg = M.base_30.purple, bg = M.base_30.one_bg2 },
   },
 
-  nvdash = {
-    NvDashAscii = { fg = M.base_30.gray_fg, bg = M.base_30.purple },
+  kawaiidash = {
+    NvDashAscii = { fg = M.base_30.pink_fg, bg = M.base_30.pink },
   },
 }
 
@@ -88,3 +88,4 @@ M.type = "light"
 M = require("base46").override_theme(M, "nano-light")
 
 return M
+
