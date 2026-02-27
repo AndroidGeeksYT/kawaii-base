@@ -79,7 +79,7 @@ M.polish_hl = {
   },
 
   kawaiidash = {
-    NvDashAscii = { fg = M.base_30.pink_fg, bg = M.base_30.pink },
+    NvDashAscii = { fg = M.base_30.pink_fg, bg = M.base_30.purple },
   },
 }
 
@@ -88,4 +88,3 @@ M.type = "light"
 M = require("base46").override_theme(M, "nano-light")
 
 return M
-

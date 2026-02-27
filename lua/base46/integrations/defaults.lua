@@ -80,8 +80,8 @@ local defaults = {
   LazyProgressDone = { fg = colors.green },
 
   KawaiiDashAscii = { fg = colors.pink },
-  KawaiiDashButtons = { fg = colors.pink },
-  KawaiiDashFooter = { fg = colors.pink },
+  KawaiiDashButtons = { fg = colors.purple },
+  KawaiiDashFooter = { fg = colors.sun },
 }
 
 -- merge statusline & hl_add tables!
