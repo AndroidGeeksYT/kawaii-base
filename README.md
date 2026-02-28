@@ -1,10 +1,11 @@
-## NvChad theme plugin
+## Kawaii theme plugin
 
 - This plugin's a whole re-write of Norcalli's plugin.
 - It should be used along with [NvChad](https://github.com/NvChad/NvChad) for best experience.
-- Non NvChad users can have the nvconfig module on the path
+- Non kawaii users can have the kawaii module on the path
 
 ## Setup
+
 This is supposed to be use with NvChad's UI plugin.
 
 Check its [install doc](https://github.com/NvChad/ui?tab=readme-ov-file#install)
@@ -44,14 +45,14 @@ and then read `:h nvui.base46`
 
 ## Configuration
 
-- Base46 is configured by [nvconfig](https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua) in your path.
+- Base46 is configured by [nvconfig](https://github.com/AndroidGeeksYT/kawaii-ui/blob/kawaii/lua/kawaii.lua) in your path.
 - Read the [themeing docs](https://nvchad.com/docs/config/theming)
 
 ## Highlight command
 
 - `:hi` command will list all highlight groups
 - `:hi` with args will highlight a **highlight group**
--  Example : `hi Comment guifg=#ffffff gui=italic, bold`
+- Example : `hi Comment guifg=#ffffff gui=italic, bold`
 
 ### Neovim Lua api for setting highlights
 
@@ -64,6 +65,7 @@ vim.api.nvim_set_hl(0, "Comment", {
   bold = true,
 })
 ```
+
 ## Understanding theme variables
 
 There are 2 main tables used for `base46`

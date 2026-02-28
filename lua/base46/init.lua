@@ -1,6 +1,6 @@
 local M = {}
 local g = vim.g
-local opts = require("nvconfig").base46
+local opts = require("kawaii").base46
 local cache_path = vim.g.base46_cache
 
 local function tbval_index(tb, val)

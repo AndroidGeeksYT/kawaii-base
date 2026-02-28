@@ -1,4 +1,4 @@
-local opts = require("nvconfig").base46
+local opts = require("kawaii").base46
 
 local base16 = require("base46").get_theme_tb "base_16"
 local colors = require("base46").get_theme_tb "base_30"
