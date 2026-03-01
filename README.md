@@ -45,7 +45,7 @@ and then read `:h nvui.base46`
 
 ## Configuration
 
-- Base46 is configured by [nvconfig](https://github.com/AndroidGeeksYT/kawaii-ui/blob/kawaii/lua/kawaii.lua) in your path.
+- Base46 is configured by [kawaii](https://github.com/AndroidGeeksYT/kawaii-ui/blob/kawaii/lua/kawaii.lua) in your path.
 - Read the [themeing docs](https://nvchad.com/docs/config/theming)
 
 ## Highlight command
