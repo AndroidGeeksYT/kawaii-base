@@ -202,7 +202,7 @@ M.toggle_theme = function()
   local themes = opts.theme_toggle
 
   if opts.theme ~= themes[1] and opts.theme ~= themes[2] then
-    vim.notify "Set your current theme to one of those mentioned in the theme_toggle table (chadrc)"
+    vim.notify "Set your current theme to one of those mentioned in the theme_toggle table (kawaiirc)"
     return
   end
 
@@ -211,9 +211,9 @@ M.toggle_theme = function()
 
   opts.theme = (themes[1] == opts.theme and themes[2]) or themes[1]
 
-  package.loaded.chadrc = nil
-  local chadrc = require "chadrc"
-  local old_theme = chadrc.base46.theme
+  package.loaded.kawaiirc = nil
+  local kawaiirc = require "kawaiirc"
+  local old_theme = kawaiirc.base46.theme
 
   require("nvchad.utils").replace_word('theme = "' .. old_theme, 'theme = "' .. opts.theme)
   M.load_all_highlights()
@@ -223,8 +223,8 @@ M.toggle_transparency = function()
   opts.transparency = not opts.transparency
   M.load_all_highlights()
 
-  package.loaded.chadrc = nil
-  local old = require("chadrc").base46.transparency
+  package.loaded.kawaiirc = nil
+  local old = require("kawaiirc").base46.transparency
   local new = "transparency = " .. tostring(opts.transparency)
   require("nvchad.utils").replace_word("transparency = " .. tostring(old), new)
 end

@@ -161,7 +161,7 @@ M.polish_hl = {
 -- set the theme type whether is dark or light
 M.type = "dark" -- "or light"
 
--- this will be later used for users to override your theme table from chadrc
+-- this will be later used for users to override your theme table from kawaiirc
 M = require("base46").override_theme(M, "abc")
 
 return M
@@ -178,7 +178,7 @@ return M
 ### Testing your theme
 
 - Just place your theme file in your `/lua/themes` folder
-- And select the theme with theme switcher or change in chadrc
+- And select the theme with theme switcher or change in kawaiirc
 
 ## Tips
 
