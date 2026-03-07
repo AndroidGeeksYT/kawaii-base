@@ -17,7 +17,7 @@ local M = {
     },
 }
 
-local cheatsheet_theme = require("kawaii").cheatsheet.theme
+local cheatsheet_theme = require("kwconfig").cheatsheet.theme
 
 if cheatsheet_theme == "grid" then
     M.KwChAsciiHeader = {

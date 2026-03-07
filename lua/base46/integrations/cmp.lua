@@ -47,7 +47,7 @@ local item_kinds = {
   CmpItemKindSuperMaven = { fg = colors.yellow },
 }
 
-local cmp_ui = require("kawaii").ui.cmp
+local cmp_ui = require("kwconfig").ui.cmp
 
 -- custom highlights per style!
 local styles = {

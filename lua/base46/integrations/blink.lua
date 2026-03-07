@@ -69,7 +69,7 @@ for kind, color in pairs(kinds) do
 end
 
 -- style-specific overrides
-local cmp_ui = require("kawaii").ui.cmp
+local cmp_ui = require("kwconfig").ui.cmp
 
 local styles = {
   default = {

@@ -114,9 +114,9 @@ M.type = "dark"
 
 M = require("base46").override_theme(M, "eldritch")
 
-local kawaii = require "kawaii"
+local kwconfig = require "kwconfig"
 
-if kawaii.ui.telescope.style == "bordered" or kawaii.base46.transparency then
+if kwconfig.ui.telescope.style == "bordered" or kwconfig.base46.transparency then
   M.polish_hl.telescope = {
     TelescopeBorder = { link = "FloatBorder" },
     TelescopePromptBorder = { link = "FloatBorder" },
@@ -124,7 +124,7 @@ if kawaii.ui.telescope.style == "bordered" or kawaii.base46.transparency then
   }
 end
 
-if kawaii.ui.cmp.style == "default" then
+if kwconfig.ui.cmp.style == "default" then
   M.polish_hl.cmp = {
     CmpBorder = { fg = M.base_30.purple },
   }

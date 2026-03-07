@@ -87,4 +87,4 @@ local defaults = {
 -- merge statusline & hl_add tables!
 local merge_tb = require("base46").merge_tb
 local hexify_ColorStrs = require("base46").turn_str_to_color
-return merge_tb(defaults, hexify_ColorStrs(require("kawaii").base46.hl_add))
+return merge_tb(defaults, hexify_ColorStrs(require("kwconfig").base46.hl_add))

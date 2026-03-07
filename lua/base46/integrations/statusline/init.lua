@@ -1,4 +1,4 @@
-local stl = require("kawaii").ui.statusline
+local stl = require("kwconfig").ui.statusline
 
 if not stl.enabled then
   return {}
