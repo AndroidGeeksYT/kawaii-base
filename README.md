@@ -1,15 +1,15 @@
 ## Kawaii theme plugin
 
 - This plugin's a whole re-write of Norcalli's plugin.
-- It should be used along with [NvChad](https://github.com/NvChad/NvChad) for best experience.
+- It should be used along with [Kawaii](https://github.com/AndroidGeeksYT/kawaii) for best experience.
 - Non kawaii users can have the kawaii module on the path
 
 ## Setup
 
-This is supposed to be use with NvChad's UI plugin.
+This is supposed to be use with kawaii's UI plugin.
 
-Check its [install doc](https://github.com/NvChad/ui?tab=readme-ov-file#install)
-and then read `:h nvui.base46`
+Check its [install doc](https://github.com/AndroidGeeksYT/kawaii-ui?tab=readme-ov-file#install)
+and then read `:h kwui.base46`
 
 ## Supported Integrations
 
@@ -48,6 +48,8 @@ and then read `:h nvui.base46`
 - Base46 is configured by [kawaii](https://github.com/AndroidGeeksYT/kawaii-ui/blob/kawaii/lua/kawaii.lua) in your path.
 - Read the [themeing docs](https://nvchad.com/docs/config/theming)
 
+> theming is the same with NvChad. You can follow that guide.
+
 ## Highlight command
 
 - `:hi` command will list all highlight groups
@@ -77,7 +79,7 @@ There are 2 main tables used for `base46`
 
 **Note: the below values are mostly approx values so its not compulsory that you
 have to use those exact numbers, test your theme i.e show it in the PR to get
-feedback from @siduck**
+feedback from @AndroidGeeksYT**
 
 ## Default Theme table
 
@@ -173,7 +175,7 @@ return M
 
 ## Contribute
 
-- Send PR in the https://github.com/NvChad/base46/tree/v2.5/lua/base46/themes
+- Send PR in the https://github.com/AndroidGeeksYT/kawaii-base/tree/kawaii/lua/base46/themes
 
 ### Testing your theme
 
