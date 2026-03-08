@@ -2,13 +2,13 @@ local colors = require("base46").get_theme_tb("base_30")
 
 local M = {
     KwChHeading = {
-        fg = colors.baby_pink,
-        bg = colors.purple,
+        fg = colors.black,
+        bg = colors.blue,
         bold = true,
     },
 
     KwChSection = {
-        bg = colors.purple,
+        bg = colors.black2,
     },
 
     KwChAsciiHeader = {
@@ -21,7 +21,7 @@ local cheatsheet_theme = require("kwconfig").cheatsheet.theme
 
 if cheatsheet_theme == "grid" then
     M.KwChAsciiHeader = {
-        fg = colors.blue,
+        fg = colors.baby_pink,
     }
 
     local bgcols =
